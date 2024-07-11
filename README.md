@@ -32,3 +32,18 @@
 - Shareability
 
 - VIBES: good quality, tasteful, and awesome things
+
+- To be Deployed on **Vercel**
+
+
+## Links
+
+- [Notion Track 2 Brooklyn Stoop Sale](https://codedex.notion.site/Track-2-Brooklyn-Stoop-Sale-01895caec65548f4bdf21d6dd7144ef2)
+
+- [How to Submit your Project](https://codedex.us13.list-manage.com/track/click?u=b639c3d3c4e19a3fb3a9d94fe&id=5e8dd9febc&e=f0928ab8b5)
+
+- [Pre-Hack Workshop Slides](https://codedex.us13.list-manage.com/track/click?u=b639c3d3c4e19a3fb3a9d94fe&id=4db5da17e6&e=f0928ab8b5)
+
+- [Hackathon Grading Rubric](https://codedex.us13.list-manage.com/track/click?u=b639c3d3c4e19a3fb3a9d94fe&id=b472159f6e&e=f0928ab8b5)
+
+- [Hackathon Schedule of Events](https://www.codedex.io/hackathon#schedule)
