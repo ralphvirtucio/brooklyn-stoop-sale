@@ -1,6 +1,8 @@
 
 # Track 2: Brooklyn Stoop Sale
 
+## Team MIDZY
+
 ## Objectives
 
 - To invite people around Brooklyn or other nearby cities to a Brooklyn Stoop Sale
@@ -34,7 +36,6 @@
 - VIBES: good quality, tasteful, and awesome things
 
 - To be Deployed on **Vercel**
-
 
 ## Links
 
