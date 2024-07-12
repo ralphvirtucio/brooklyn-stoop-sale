@@ -19,17 +19,24 @@ function App() {
 
         <div id="third-page">
           <h1 className="header-text">Meet the <span>Organizers</span></h1>
-            <div id="profiles"></div>
+            <div id="profiles">
               <div className="first profile">
-                <img src="..." alt="Chelsea"></img>
-                <p>Chelsea</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="white" className="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                  <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p className="names">Chelsea</p>
               </div>
               <div className="second profile">
-                <img src="..." alt="Lil"></img>
-                <p>Lil</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="white" className="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                  <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg>
+                <p className="names">Lil</p>
               </div>
             </div>
-        
+        </div>
+
         <div id="last-page">
           <div id="carouselExampleCaptions" className="carousel slide">
             <div className="carousel-indicators">
@@ -39,21 +46,21 @@ function App() {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="/public/earth.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/public/clothes.png" className="d-block w-100" alt="..."></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Clothes</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="/public/moon.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/public/shoes.png" className="d-block w-100" alt="..."></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Shoes</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="/public/saturn.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/public/many more.png" className="d-block w-100" alt="..."></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>And many more!</h5>
                   <p>Some representative placeholder content for the third slide.</p>

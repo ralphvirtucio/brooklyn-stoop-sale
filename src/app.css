@@ -26,7 +26,7 @@ html {
     background-size: cover;
 }
 
-#overlay, #second-overlay {
+#overlay, #second-overlay{
     top: 0;
     left: 0;
     width: 100%;
@@ -61,17 +61,28 @@ html {
 
 #third-page {
     background-color: #114232;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header-text {
     font-size: 48px;
     letter-spacing: 1px;
-    padding-bottom: 30%;
     color: #F7F6BB;
+    text-align: center;
+    margin-top: 10vh;
 }
 
 .header-text span {
     color: #FCDC2A;
+}
+
+.names {
+    font-size: 24px;
+    color: white;
+    padding-top: 12px;
 }
 
 #profiles {
@@ -79,9 +90,24 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
+    gap: 10rem;
+    margin-top: 2rem;
+    flex: 1;
 }
 
-#last-page {
-    background-color: yellow;
+.first.profile,
+.second.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.first.profile svg,
+.second.profile svg {
+    width: 100px;
+    height: 100px;
+}
+.carousel-item {
+    height: 100vh;
 }
