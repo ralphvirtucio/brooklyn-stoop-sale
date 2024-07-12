@@ -21,7 +21,7 @@ html {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url("/stoop sale.png");
+    background-image: url("/stoop sale1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -31,10 +31,24 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#second-overlay {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; 
+    padding: 50px; 
+}
+
+#map-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 #title, #motto {
@@ -58,6 +72,7 @@ html {
     background-position: center;
     background-size: cover;
 }
+
 
 #third-page {
     background-color: #114232;
@@ -108,6 +123,7 @@ html {
     width: 100px;
     height: 100px;
 }
+
 .carousel-item {
     height: 100vh;
 }
